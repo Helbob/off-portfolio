@@ -23,6 +23,7 @@ img {
 
 html {
   background-color: var(--color-primary1);
+  scroll-behavior: smooth;
 }
 
 header {
