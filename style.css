@@ -233,6 +233,11 @@ footer p:hover {
 #project h2 {
   padding-left: 10%;
 }
+
+#project p {
+  padding-left: 10%;
+}
+
 /* Mobile */
 @media (max-width: 750px) {
   header {
@@ -325,5 +330,53 @@ footer p:hover {
     padding: 5%;
     min-height: 80vh;
     justify-content: baseline;
+  }
+
+  .wrapper div {
+    transition: 0.5s ease;
+    opacity: 1;
+  }
+  .wrapper img {
+    transition: 0.5s ease;
+    opacity: 1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .wrapper img:hover {
+    opacity: 1;
+  }
+  .wrapper article {
+    position: relative;
+  }
+
+  .wrapper article:hover img {
+    opacity: 1;
+  }
+
+  .wrapper article:hover .hm {
+    opacity: 1;
+  }
+
+  .hm {
+    transition: 0.5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hm:hover {
+    opacity: 1;
+  }
+
+  #project h2 {
+    padding-left: 5%;
+  }
+
+  #project p {
+    padding-left: 5%;
+    padding-bottom: 5%;
   }
 }
