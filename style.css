@@ -244,7 +244,7 @@ footer p:hover {
     display: flex;
     justify-content: space-around;
     padding: 5%;
-    min-height: 80vh;
+    min-height: 30vh;
     flex-wrap: wrap;
   }
 
@@ -312,7 +312,7 @@ footer p:hover {
   }
 
   #project {
-    margin-top: 29%;
+    margin-top: 0%;
   }
 
   .image {
